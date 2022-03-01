@@ -162,3 +162,16 @@ main {
     font-size: 12px;
     color: #9B9B9B;
 }
+
+.news .no-img .news-item:first-child .article-title{
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.news .no-img .news-item:first-child span {
+    color: #3C3C3C;
+    font-size: 13px;
+    line-height: 22px;
+}
