@@ -2,11 +2,14 @@ main {
     width: 320px;
     max-width: 1170px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #main-content {
     width: 100%;
     height: auto;
+    margin: 0 auto;
     margin-bottom: 17px;
     max-width: 770px;
     display: flex;
@@ -100,6 +103,7 @@ main {
     border-top: 3px solid #0090FF;
     border-bottom: 1px solid #EDEDED;
     margin-bottom: 19px;
+    justify-content: space-between;
 }
 
 .news .news-menu .title-menu {
@@ -113,6 +117,15 @@ main {
 
 .news .news-menu .menu {
     display: none;
+    color: #1D1D1D;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.news .news-menu .menu .item{
+    padding-left: 20px;
 }
 
 .news .child .news-item {
@@ -175,3 +188,4 @@ main {
     font-size: 13px;
     line-height: 22px;
 }
+

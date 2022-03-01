@@ -5,10 +5,11 @@
 
 #footer-content {
     width: 320px;
+    max-width: 1170px;
     margin: 0 auto;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #about-us {
@@ -16,15 +17,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 370px;
 }
 
 .footer-logo {
     margin-bottom: 9px;
-    padding-top: 13px;
+    margin-top: 13px;
 }
 
 #about-us .content {
-    color: #E1E1E1;
+    color: #AAABAF;
     font-size: 13px;
     line-height: 24px;
     font-weight: 200;
@@ -34,6 +36,25 @@
 
 #footer-menu {
     display: none;
+    width: 600px;
+    margin-top: 27px;
+    justify-content: space-between;
+}
+
+#footer-menu .item{
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 200;
+    color: #AAABAF;
+}
+
+#footer-menu .title{
+    font-size: 13px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    margin-left: -9px;
 }
 
 #published-by {
