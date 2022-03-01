@@ -1,0 +1,48 @@
+#footer {
+    width: 100%;
+    background: #1F2333;
+}
+
+#footer-content {
+    width: 320px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo {
+    margin-bottom: 9px;
+    padding-top: 13px;
+}
+
+#about-us .content {
+    color: #E1E1E1;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 200;
+    margin-bottom: 31px;
+    padding: 0 5px;
+}
+
+#footer-menu {
+    display: none;
+}
+
+#published-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background: #0090FF;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+}

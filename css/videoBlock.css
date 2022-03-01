@@ -1,0 +1,33 @@
+#videos {
+    width: 100%;
+    padding-top: 39px;
+    background: #EDEDED59;
+    margin-bottom: 30px;
+}
+
+#videos-content {
+    width: 320px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+#videos-content .aside-menu-title {
+    background-color: transparent;
+}
+
+#videos-content .hr {
+    width: 70%;
+    margin-left: auto;
+}
+
+#videos .child {
+    margin-top: 18px;
+}
+
+#videos .child .img{
+    margin-bottom: 3px;
+}
+
+#videos .child span {
+    padding-right: 9px;
+}
