@@ -39,6 +39,7 @@
         width: 80%;
         grid-template-columns: calc(50% - 2.5px) calc(50% - 2.5px);
     }
+
     .news .child {
         max-width: 310px;
     }

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/videoBlock.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/adFullPage.css">
 </head>
 
 <body>
@@ -69,7 +70,7 @@
             <input type="checkbox" name="nav-mobile-input" id="nav__mobile-input">
     
             <!-- overlay  -->
-            <div class="nav__overlay"></div>
+            <label for="nav__mobile-input" class="nav__overlay"></label>
     
             <!-- nav mobile  -->
             <div class="nav__mobile">
@@ -1328,6 +1329,17 @@
             Quản lý và xuất bản bởi Báo Đời sống & Pháp luật
         </div>
     </footer>
+
+    <input type="radio" name="ad-full-page" id="ad-fp">
+    <div class="ad-full-page__overlay">
+        <div class="ad-full-page__img">
+            <img src="./imgs/ads/ads.png" alt="ads">
+            <label for="ad-fp" id="times">
+                <i class="fa-solid fa-xmark"></i>
+                <span>CLOSE</span>
+            </label>
+        </div>
+    </div>
 
     <script src="menuBars.js"></script>
     <script src="https://kit.fontawesome.com/6bf34e6c84.js" crossorigin="anonymous"></script>

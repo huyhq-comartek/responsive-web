@@ -1,0 +1,37 @@
+#ad-fp {
+    display: none;
+}
+
+.ad-full-page__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-full-page__img {
+    position: relative;
+}
+
+.ad-full-page__img #times {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.ad-full-page__img #times:hover {
+    color: #fff;
+}
+
+#ad-fp:checked ~ .ad-full-page__overlay {
+    display: none;
+}

@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; 
+    padding-bottom: 70%;
 }
 
 .hot-news-child .img::after{
@@ -42,6 +44,9 @@
     width: 100%;
     height: 100%;
     transition: 0.6s;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hot-news-child:hover img {
