@@ -126,6 +126,16 @@ main {
 
 .news .news-menu .menu .item{
     padding-left: 20px;
+    display: flex;
+}
+
+.news .news-menu .menu .item:not(:first-child)::before{
+    display: block;
+    content: '';
+    height: 8px;
+    border-left: 0.5px solid #9B9B9B;
+    transform: translateY(7px);
+    margin-right: 15px;
 }
 
 .news .child .news-item {
@@ -188,4 +198,3 @@ main {
     font-size: 13px;
     line-height: 22px;
 }
-

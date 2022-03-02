@@ -92,11 +92,26 @@ header #nav__mobile-input {
 }
 
 #sub-header {
+    margin-top: 80px;
     background: #EDEDED;
-    height: 35px;
-    display: none;
-    align-items: center;
     margin-bottom: 30px;
+    display: none;
+}
+
+#sub-header-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 35px;
+    align-items: center;
+    display: flex;
+}
+
+#trending, #path {
+    margin-right: 15px;
+}
+
+#path {
+    transform: translateY(2px);
 }
 
 #trending {
@@ -110,6 +125,11 @@ header #nav__mobile-input {
 #trending-name {
     font-size: 11px;
     color: #666666;
+    font-weight: 200;
+}
+
+#other-trending {
+    margin-left: auto;
 }
 
 @keyframes fadeIn {
@@ -126,10 +146,21 @@ header #nav__mobile-input {
     display: none;
     text-transform: uppercase;
     width: 936px;
+    position: relative;
 }
 
 #main-nav .nav-item {
     height: 100%;
+    display: flex;
+}
+
+#main-nav .nav-item:not(:first-child)::before {
+    display: block;
+    content: '';
+    height: 9px;
+    border-left: 0.5px solid #C6C6C6;
+    margin-right: 15px;
+    transform: translateY(36px);
 }
 
 #main-nav .nav-item a {
@@ -140,4 +171,9 @@ header #nav__mobile-input {
     font-size: 14px;
     line-height: 24px;
     color: #070707;
+}
+
+#main-nav .nav-item:hover a {
+    color: #0090FF;
+    box-shadow: inset 0 2px #0090FF;
 }

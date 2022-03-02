@@ -8,8 +8,6 @@
     max-width: 1170px;
     margin: 0 auto;
     color: #fff;
-    display: flex;
-    justify-content: center;
 }
 
 #about-us {
@@ -17,12 +15,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 370px;
 }
 
-.footer-logo {
+#footer-logo {
     margin-bottom: 9px;
     margin-top: 13px;
+    display: block;
 }
 
 #about-us .content {
@@ -41,7 +39,7 @@
     justify-content: space-between;
 }
 
-#footer-menu .item{
+#footer-menu .item a{
     font-size: 13px;
     line-height: 32px;
     font-weight: 200;
@@ -54,7 +52,18 @@
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    margin-left: -9px;
+    position: relative;
+}
+
+#footer-menu .title::before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #0090FF;
+    top: 14px;
+    left: -10px;
 }
 
 #published-by {
@@ -66,4 +75,5 @@
     font-size: 12px;
     line-height: 24px;
     color: #fff;
+    height: 50px;
 }

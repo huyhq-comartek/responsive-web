@@ -98,6 +98,19 @@
     #main-content .all-news .child:nth-child(even) {
         margin-right: 0;
     }
+
+    #sub-header {
+        display: block;
+    }
+
+    #sub-header-content {
+        width: 90%;
+    }
+
+    #hot-news {
+        margin-top: 30px;
+    }
+
 }
 
 @media (min-width: 1170px) {
@@ -165,11 +178,17 @@
     }
 
     #footer-content {
+        display: flex;
         justify-content: space-between;
     }
 
     #footer-menu {
         display: flex;
+    }
+
+    #about-us {
+        width: 370px;
+        display: block;
     }
 }
 
