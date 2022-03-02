@@ -123,6 +123,11 @@ header #nav__mobile-input {
 }
 
 #trending-name {
+    display: flex;
+    align-items: center;
+}
+
+#trending-name a{
     font-size: 11px;
     color: #666666;
     font-weight: 200;

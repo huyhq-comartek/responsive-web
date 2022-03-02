@@ -85,6 +85,11 @@ main {
     line-height: 20px;
     font-weight: 500;
     margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.news .child .news-title:hover {
+    color: #27ae60;
 }
 
 .news .child span {
@@ -129,6 +134,10 @@ main {
     display: flex;
 }
 
+.news .news-menu .menu .item:hover a{
+    color: #0090FF;
+}
+
 .news .news-menu .menu .item:not(:first-child)::before{
     display: block;
     content: '';
@@ -168,11 +177,16 @@ main {
     flex-wrap: wrap;
 }
 
-.news .child .news-item .article-content .article-title{
+.news .child .news-item .article-content .article-title {
     width: 100%;
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
+    transition: 0.3s;
+}
+
+.news .child .news-item .article-content .article-title:hover {
+    color: #27ae60;
 }
 
 .news .child .news-item .article-content span{
